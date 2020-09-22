@@ -8,7 +8,7 @@ cwd = os.path.dirname(os.path.abspath(__file__))
 os.chdir(cwd)
 
 # Load an image
-img = cv2.imread('messi5.jpg')
+img = cv2.imread('home.jpg')
 
 # Display the image in a window
 cv2.imshow('image', img)

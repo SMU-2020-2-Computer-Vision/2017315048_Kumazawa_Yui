@@ -8,7 +8,7 @@ cwd = os.path.dirname(os.path.abspath(__file__))
 os.chdir(cwd)
 
 # Load an image
-img = cv2.imread('messi5.jpg')
+img = cv2.imread('home.jpg')
 print(type(img)) # <class 'numpy.ndarray'>
 
 print(img.ndim)  
